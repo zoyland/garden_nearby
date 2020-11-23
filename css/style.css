@@ -599,7 +599,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.slicknav_menu {
-		display: none;
+		display: block;
 		top: 70px;
 	}
 }
@@ -607,7 +607,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 @media only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 576px) {
 	.slicknav_menu {
-		display: none;
+		display: block;
 	}
 }
 
@@ -2920,7 +2920,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .about-blog-section {
 	padding-bottom: 80px;
 }
-
+.wwd {
+	margin: 0 auto;
+}
 /*----------------------
   Classes details page
 -----------------------*/
